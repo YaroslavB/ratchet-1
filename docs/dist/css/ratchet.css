@@ -11,7 +11,7 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; 
       -ms-text-size-adjust: 100%;
 }
 
@@ -19,26 +19,11 @@ body {
   margin: 0;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-audio,
-canvas,
-progress,
-video {
+audio, canvas, progress, video {
   display: inline-block;
   vertical-align: baseline;
 }
@@ -48,8 +33,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-[hidden],
-template {
+[hidden], template {
   display: none;
 }
 
@@ -57,8 +41,7 @@ a {
   background-color: transparent;
 }
 
-a:active,
-a:hover {
+a:active, a:hover {
   outline: 0;
 }
 
@@ -66,8 +49,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-b,
-strong {
+b, strong {
   font-weight: bold;
 }
 
@@ -76,12 +58,12 @@ dfn {
 }
 
 h1 {
-  margin: .67em 0;
+  margin: .67em 0; 
   font-size: 2em;
 }
 
 mark {
-  color: #000;
+  color: #000; 
   background: #ff0;
 }
 
@@ -89,8 +71,7 @@ small {
   font-size: 80%;
 }
 
-sub,
-sup {
+sub, sup {
   position: relative;
   font-size: 75%;
   line-height: 0;
@@ -118,7 +99,7 @@ figure {
 }
 
 hr {
-  height: 0;
+  height: 0; 
   -moz-box-sizing: content-box;
        box-sizing: content-box;
 }
@@ -127,20 +108,13 @@ pre {
   overflow: auto;
 }
 
-code,
-kbd,
-pre,
-samp {
+code, kbd, pre, samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  margin: 0;
+button, input, optgroup, select, textarea {
+  margin: 0; 
   font: inherit;
   color: inherit;
 }
@@ -149,27 +123,21 @@ button {
   overflow: visible;
 }
 
-button,
-select {
+button, select {
   text-transform: none;
 }
 
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-button[disabled],
-html input[disabled] {
+button[disabled], html input[disabled] {
   cursor: default;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  padding: 0;
+button::-moz-focus-inner, input::-moz-focus-inner {
+  padding: 0; 
   border: 0;
 }
 
@@ -177,37 +145,34 @@ input {
   line-height: normal;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
 input[type="search"] {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
-          box-sizing: content-box;
+          box-sizing: content-box; 
   -webkit-appearance: textfield;
 }
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
 fieldset {
-  padding: .35em .625em .75em;
+  padding: .35em .625em .75em; 
   margin: 0 2px;
   border: 1px solid #c0c0c0;
 }
 
 legend {
-  padding: 0;
+  padding: 0; 
   border: 0;
 }
 
@@ -220,12 +185,11 @@ optgroup {
 }
 
 table {
-  border-spacing: 0;
+  border-spacing: 0; 
   border-collapse: collapse;
 }
 
-td,
-th {
+td, th {
   padding: 0;
 }
 
@@ -252,7 +216,7 @@ a {
   color: #428bca;
   text-decoration: none;
 
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a:active {
   color: #3071a9;
@@ -265,7 +229,7 @@ a:active {
   bottom: 0;
   left: 0;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch; 
   background-color: #fff;
 }
 
@@ -346,12 +310,12 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  margin-top: 20px;
+  margin-top: 20px; 
   font-size: 14px;
 }
 
 h6, .h6 {
-  margin-top: 20px;
+  margin-top: 20px; 
   font-size: 12px;
 }
 
@@ -456,9 +420,7 @@ p {
   font-size: 18px;
 }
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+input[type="submit"], input[type="reset"], input[type="button"] {
   width: 100%;
 }
 
@@ -468,14 +430,11 @@ input[type="button"] {
   background-color: rgba(0, 0, 0, .15);
 }
 
-.btn .badge-inverted,
-.btn:active .badge-inverted {
+.btn .badge-inverted, .btn:active .badge-inverted {
   background-color: transparent;
 }
 
-.btn-primary:active .badge-inverted,
-.btn-positive:active .badge-inverted,
-.btn-negative:active .badge-inverted {
+.btn-primary:active .badge-inverted, .btn-positive:active .badge-inverted, .btn-negative:active .badge-inverted {
   color: #fff;
 }
 
@@ -520,9 +479,7 @@ input[type="button"] {
   bottom: 50px;
 }
 
-.bar-footer,
-.bar-footer-secondary,
-.bar-footer-secondary-tab {
+.bar-footer, .bar-footer-secondary, .bar-footer-secondary-tab {
   border-top: 1px solid #ddd;
   border-bottom: 0;
 }
@@ -715,7 +672,7 @@ input[type="button"] {
   border-top-right-radius: 6px;
 }
 .card .table-view .table-view-divider:last-child {
-  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px; 
   border-bottom-left-radius: 6px;
 }
 
@@ -770,8 +727,7 @@ input[type="button"] {
   border-bottom: 1px solid #ddd;
 }
 
-.table-view .media,
-.table-view .media-body {
+.table-view .media, .table-view .media-body {
   overflow: hidden;
 }
 
@@ -782,12 +738,7 @@ input[type="button"] {
   margin-left: 10px;
 }
 
-.table-view-cell > .btn,
-.table-view-cell > .badge,
-.table-view-cell > .toggle,
-.table-view-cell > a > .btn,
-.table-view-cell > a > .badge,
-.table-view-cell > a > .toggle {
+.table-view-cell > .btn, .table-view-cell > .badge, .table-view-cell > .toggle, .table-view-cell > a > .btn, .table-view-cell > a > .badge, .table-view-cell > a > .toggle {
   position: absolute;
   top: 50%;
   right: 15px;
@@ -795,30 +746,7 @@ input[type="button"] {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-.table-view-cell .navigate-left > .btn,
-.table-view-cell .navigate-left > .badge,
-.table-view-cell .navigate-left > .toggle,
-.table-view-cell .navigate-right > .btn,
-.table-view-cell .navigate-right > .badge,
-.table-view-cell .navigate-right > .toggle,
-.table-view-cell .push-left > .btn,
-.table-view-cell .push-left > .badge,
-.table-view-cell .push-left > .toggle,
-.table-view-cell .push-right > .btn,
-.table-view-cell .push-right > .badge,
-.table-view-cell .push-right > .toggle,
-.table-view-cell > a .navigate-left > .btn,
-.table-view-cell > a .navigate-left > .badge,
-.table-view-cell > a .navigate-left > .toggle,
-.table-view-cell > a .navigate-right > .btn,
-.table-view-cell > a .navigate-right > .badge,
-.table-view-cell > a .navigate-right > .toggle,
-.table-view-cell > a .push-left > .btn,
-.table-view-cell > a .push-left > .badge,
-.table-view-cell > a .push-left > .toggle,
-.table-view-cell > a .push-right > .btn,
-.table-view-cell > a .push-right > .badge,
-.table-view-cell > a .push-right > .toggle {
+.table-view-cell .navigate-left > .btn, .table-view-cell .navigate-left > .badge, .table-view-cell .navigate-left > .toggle, .table-view-cell .navigate-right > .btn, .table-view-cell .navigate-right > .badge, .table-view-cell .navigate-right > .toggle, .table-view-cell .push-left > .btn, .table-view-cell .push-left > .badge, .table-view-cell .push-left > .toggle, .table-view-cell .push-right > .btn, .table-view-cell .push-right > .badge, .table-view-cell .push-right > .toggle, .table-view-cell > a .navigate-left > .btn, .table-view-cell > a .navigate-left > .badge, .table-view-cell > a .navigate-left > .toggle, .table-view-cell > a .navigate-right > .btn, .table-view-cell > a .navigate-right > .badge, .table-view-cell > a .navigate-right > .toggle, .table-view-cell > a .push-left > .btn, .table-view-cell > a .push-left > .badge, .table-view-cell > a .push-left > .toggle, .table-view-cell > a .push-right > .btn, .table-view-cell > a .push-right > .badge, .table-view-cell > a .push-right > .toggle {
   right: 35px;
 }
 
@@ -826,30 +754,12 @@ input[type="button"] {
   margin-top: 15px;
 }
 
-input,
-textarea,
-button,
-select {
+input, textarea, button, select {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
 }
 
-select,
-textarea,
-input[type="text"],
-input[type="search"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="tel"],
-input[type="color"] {
+select, textarea, input[type="text"], input[type="search"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="color"] {
   width: 100%;
   height: 35px;
   -webkit-appearance: none;
@@ -865,7 +775,7 @@ input[type="color"] {
 input[type="search"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box;
+          box-sizing: border-box; 
   padding: 0 10px;
   font-size: 16px;
   border-radius: 20px;
@@ -891,8 +801,7 @@ select {
   background-color: #fff;
 }
 
-.input-group input,
-.input-group textarea {
+.input-group input, .input-group textarea {
   margin-bottom: 0;
   background-color: transparent;
   border-top: 0;
@@ -1025,7 +934,7 @@ select {
   opacity: 0;
   -webkit-transition: all .25s linear;
      -moz-transition: all .25s linear;
-          transition: all .25s linear;
+          transition: all .25s linear; 
   -webkit-transform: translate3d(0, -15px, 0);
       -ms-transform: translate3d(0, -15px, 0);
           transform: translate3d(0, -15px, 0);
@@ -1149,7 +1058,7 @@ select {
   border-radius: 20px;
   -webkit-transition-duration: .2s;
      -moz-transition-duration: .2s;
-          transition-duration: .2s;
+          transition-duration: .2s; 
   -webkit-transition-property: background-color, border;
      -moz-transition-property: background-color, border;
           transition-property: background-color, border;
@@ -1166,7 +1075,7 @@ select {
   border-radius: 100px;
   -webkit-transition-duration: .2s;
      -moz-transition-duration: .2s;
-          transition-duration: .2s;
+          transition-duration: .2s; 
   -webkit-transition-property: -webkit-transform, border, width;
      -moz-transition-property:    -moz-transform, border, width;
           transition-property:         transform, border, width;
@@ -1229,10 +1138,7 @@ select {
           transform: translate3d(100%, 0, 0);
 }
 
-.navigate-left:after,
-.navigate-right:after,
-.push-left:after,
-.push-right:after {
+.navigate-left:after, .navigate-right:after, .push-left:after, .push-right:after {
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -1243,19 +1149,17 @@ select {
   text-decoration: none;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+          transform: translateY(-50%); 
 
   -webkit-font-smoothing: antialiased;
 }
 
-.navigate-left:after,
-.push-left:after {
+.navigate-left:after, .push-left:after {
   left: 15px;
   content: '\e822';
 }
 
-.navigate-right:after,
-.push-right:after {
+.navigate-right:after, .push-right:after {
   right: 15px;
   content: '\e826';
 }
@@ -1265,9 +1169,10 @@ select {
   font-style: normal;
   font-weight: normal;
 
-  src: url("../fonts/ratchicons.eot");
-  src: url("../fonts/ratchicons.eot?#iefix") format("embedded-opentype"), url("../fonts/ratchicons.woff") format("woff"), url("../fonts/ratchicons.ttf") format("truetype"), url("../fonts/ratchicons.svg#svgFontName") format("svg");
+  src: url('../fonts/ratchicons.eot');
+  src: url('../fonts/ratchicons.eot?#iefix') format('embedded-opentype'), url('../fonts/ratchicons.woff') format('woff'), url('../fonts/ratchicons.ttf') format('truetype'), url('../fonts/ratchicons.svg#svgFontName') format('svg');
 }
+
 .icon {
   display: inline-block;
   font-family: Ratchicons;

@@ -9,7 +9,7 @@
  */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 22px;
   color: #222;
@@ -72,7 +72,7 @@ a:active {
 }
 .btn-primary:active, .btn-primary.active {
   color: #fff;
-  background-color: #1a9bcb;
+  background-color: #1a9bcb; 
   border: 0;
 }
 
@@ -185,9 +185,7 @@ a:active {
 .bar.bar-footer-secondary-tab {
   bottom: 50px;
 }
-.bar .bar-footer,
-.bar .bar-footer-secondary,
-.bar .bar-footer-secondary-tab {
+.bar .bar-footer, .bar .bar-footer-secondary, .bar .bar-footer-secondary-tab {
   border-top: 1px solid #b1b1b1;
   border-bottom: 0;
   -webkit-box-shadow: inset 0 -2px 0 #33b5e5;
@@ -333,50 +331,11 @@ a:active {
   border-bottom: 2px solid #a9a9a9;
 }
 
-.table-view-cell .navigate-left > .btn,
-.table-view-cell .navigate-left > .badge,
-.table-view-cell .navigate-left > .toggle,
-.table-view-cell .navigate-right > .btn,
-.table-view-cell .navigate-right > .badge,
-.table-view-cell .navigate-right > .toggle,
-.table-view-cell .push-left > .btn,
-.table-view-cell .push-left > .badge,
-.table-view-cell .push-left > .toggle,
-.table-view-cell .push-right > .btn,
-.table-view-cell .push-right > .badge,
-.table-view-cell .push-right > .toggle,
-.table-view-cell > a .navigate-left > .btn,
-.table-view-cell > a .navigate-left > .badge,
-.table-view-cell > a .navigate-left > .toggle,
-.table-view-cell > a .navigate-right > .btn,
-.table-view-cell > a .navigate-right > .badge,
-.table-view-cell > a .navigate-right > .toggle,
-.table-view-cell > a .push-left > .btn,
-.table-view-cell > a .push-left > .badge,
-.table-view-cell > a .push-left > .toggle,
-.table-view-cell > a .push-right > .btn,
-.table-view-cell > a .push-right > .badge,
-.table-view-cell > a .push-right > .toggle {
+.table-view-cell .navigate-left > .btn, .table-view-cell .navigate-left > .badge, .table-view-cell .navigate-left > .toggle, .table-view-cell .navigate-right > .btn, .table-view-cell .navigate-right > .badge, .table-view-cell .navigate-right > .toggle, .table-view-cell .push-left > .btn, .table-view-cell .push-left > .badge, .table-view-cell .push-left > .toggle, .table-view-cell .push-right > .btn, .table-view-cell .push-right > .badge, .table-view-cell .push-right > .toggle, .table-view-cell > a .navigate-left > .btn, .table-view-cell > a .navigate-left > .badge, .table-view-cell > a .navigate-left > .toggle, .table-view-cell > a .navigate-right > .btn, .table-view-cell > a .navigate-right > .badge, .table-view-cell > a .navigate-right > .toggle, .table-view-cell > a .push-left > .btn, .table-view-cell > a .push-left > .badge, .table-view-cell > a .push-left > .toggle, .table-view-cell > a .push-right > .btn, .table-view-cell > a .push-right > .badge, .table-view-cell > a .push-right > .toggle {
   right: 15px;
 }
 
-select,
-textarea,
-input[type="text"],
-input[type="search"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="tel"],
-input[type="color"],
-.input-group {
+select, textarea, input[type="text"], input[type="search"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="color"], .input-group {
   height: 40px;
   padding: 10px 15px;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -388,9 +347,7 @@ input[type="search"] {
   border-radius: 2px;
 }
 
-select,
-textarea,
-.input-group {
+select, textarea, .input-group {
   height: auto;
 }
 
@@ -567,13 +524,11 @@ textarea,
   color: #fff;
 }
 
-.navigate-left:after,
-.push-left:after {
+.navigate-left:after, .push-left:after {
   content: '';
 }
 
-.navigate-right:after,
-.push-right:after {
+.navigate-right:after, .push-right:after {
   content: '';
 }
 
@@ -581,8 +536,7 @@ textarea,
   content: '\e800';
 }
 
-.icon-down:before,
-.icon-down-nav:before {
+.icon-down:before, .icon-down-nav:before {
   content: '\e801';
 }
 
@@ -590,8 +544,7 @@ textarea,
   content: '\e802';
 }
 
-.icon-left:before,
-.icon-left-nav:before {
+.icon-left:before, .icon-left-nav:before {
   content: '\e803';
 }
 
@@ -603,8 +556,7 @@ textarea,
   content: '\e805';
 }
 
-.icon-right:before,
-.icon-right-nav:before {
+.icon-right:before, .icon-right-nav:before {
   content: '\e806';
 }
 
@@ -616,7 +568,6 @@ textarea,
   content: '\e808';
 }
 
-.icon-up:before,
-.icon-up-nav:before {
+.icon-up:before, .icon-up-nav:before {
   content: '\e809';
 }

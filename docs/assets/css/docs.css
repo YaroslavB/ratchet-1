@@ -8,8 +8,7 @@
  * =====================================================
  */
 
-html,
-body {
+html, body {
   width: 100%;
   height: 100%;
 }
@@ -54,8 +53,7 @@ body {
   color: #777;
 }
 
-.docs-header,
-.docs-sub-header {
+.docs-header, .docs-sub-header {
   position: relative;
   background-color: #0a1855;
   background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0a1855), color-stop(100%, #da0024));
@@ -115,6 +113,7 @@ body {
             transform: translateY(-50%) !important;
   }
 }
+
 .docs-masthead {
   position: relative;
   padding-top: 15px;
@@ -162,21 +161,17 @@ body {
   font-size: 22px;
 }
 
-.docs-jump-menu,
-.docs-component-group {
+.docs-jump-menu, .docs-component-group {
   display: none;
 }
 
-.docs-title a,
-.docs-nav-item {
+.docs-title a, .docs-nav-item {
   color: #fff;
   -webkit-transition: opacity .2s linear;
      -moz-transition: opacity .2s linear;
           transition: opacity .2s linear;
 }
-.docs-title a:active, .docs-title a:focus,
-.docs-nav-item:active,
-.docs-nav-item:focus {
+.docs-title a:active, .docs-title a:focus, .docs-nav-item:active, .docs-nav-item:focus {
   color: #fff;
   opacity: .5;
 }
@@ -284,6 +279,7 @@ body {
     background-color: #428bca;
   }
 }
+
 .docs-header-content {
   position: relative;
   padding: 50px 10px;
@@ -342,6 +338,7 @@ body {
     line-height: 60px;
   }
 }
+
 .carbonad {
   width: 100% !important;
   height: auto !important;
@@ -359,14 +356,13 @@ body {
   margin: 0 !important;
 }
 
-.carbonad-text,
-.carbonad-tag {
+.carbonad-text, .carbonad-tag {
   display: block !important;
   float: none !important;
   width: auto !important;
   height: auto !important;
   margin-left: 145px !important;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important; 
   color: rgba(255, 255, 255, .65) !important;
 }
 
@@ -378,8 +374,7 @@ body {
   text-align: left !important;
 }
 
-.carbonad-text a,
-.carbonad-tag a {
+.carbonad-text a, .carbonad-tag a {
   color: #fff !important;
 }
 
@@ -396,6 +391,7 @@ body {
     border-radius: 3px !important;
   }
 }
+
 .docs-sub-content {
   position: relative;
   padding: 55px 15px 65px;
@@ -403,8 +399,7 @@ body {
   color: #fff;
   text-align: center;
 }
-.docs-sub-content .page-title,
-.docs-sub-content .page-description {
+.docs-sub-content .page-title, .docs-sub-content .page-description {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 300;
@@ -425,6 +420,7 @@ body {
     text-align: left;
   }
 }
+
 .docs-section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -440,6 +436,7 @@ body {
     margin-top: 35px;
   }
 }
+
 .docs-module {
   padding: 20px;
   margin-top: 20px;
@@ -461,7 +458,7 @@ body {
   padding: 30px 20px;
   margin-top: 50px;
   font-size: 14px;
-  color: #777;
+  color: #777; 
   text-align: center;
   border-top: 1px solid #ddd;
 }
@@ -497,12 +494,13 @@ body {
     margin: 0 auto;
   }
 }
+
 .docs-footer-links {
   padding-left: 0;
 }
 .docs-footer-links li {
   display: inline;
-  padding-right: 3px;
+  padding-right: 3px; 
   padding-left: 3px;
 }
 
@@ -510,17 +508,15 @@ body {
   margin-top: 0;
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
-.docs-header .docs-footer .docs-footer-text,
-.docs-header .docs-footer .docs-footer-links {
+.docs-header .docs-footer .docs-footer-text, .docs-header .docs-footer .docs-footer-links {
   color: rgba(255, 255, 255, .5);
 }
-.docs-header .docs-footer .docs-footer-text a,
-.docs-header .docs-footer .docs-footer-links a {
+.docs-header .docs-footer .docs-footer-text a, .docs-header .docs-footer .docs-footer-links a {
   color: rgba(255, 255, 255, .8);
 }
 
 .github-btn {
-  overflow: hidden;
+  overflow: hidden; 
   border: 0;
 }
 
@@ -603,6 +599,7 @@ code {
     border-bottom: 0;
   }
 }
+
 .component-title {
   margin-bottom: 10px;
   font-size: 24px;
@@ -620,9 +617,7 @@ code {
   line-height: 21px;
 }
 
-.component-example,
-.component-example .bar,
-.component-example .content {
+.component-example, .component-example .bar, .component-example .content {
   position: relative;
 }
 
@@ -646,8 +641,7 @@ code {
   padding: 15px;
 }
 
-.component-example > .btn,
-.component-example > .toggle {
+.component-example > .btn, .component-example > .toggle {
   margin-bottom: 10px;
 }
 
@@ -668,14 +662,13 @@ code {
   left: 0;
   width: 100%;
   font-size: 24px;
-  color: #fff;
+  color: #fff; 
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
-.component-example-fullbleed,
-.highlight {
-  margin-right: -15px;
+.component-example-fullbleed, .highlight {
+  margin-right: -15px; 
   margin-left: -15px;
 }
 
@@ -689,7 +682,7 @@ code {
   overflow-x: auto;
   font-size: 13px;
   color: #777;
-  word-wrap: normal;
+  word-wrap: normal; 
   white-space: pre;
   background-color: #fafafa;
   border-top: 1px solid #ddd;
@@ -701,10 +694,8 @@ code {
 }
 
 @media screen and (min-width: 768px) {
-  .component,
-  .component-example-fullbleed,
-  .highlight {
-    margin-right: 0;
+  .component, .component-example-fullbleed, .highlight {
+    margin-right: 0; 
     margin-left: 0;
   }
 
@@ -730,8 +721,8 @@ code {
     border-radius: 3px;
   }
 }
-#ratchicons .icon,
-#ratchiconsInDevice .icon {
+
+#ratchicons .icon, #ratchiconsInDevice .icon {
   width: 50px;
   height: 50px;
   margin: 3px;
@@ -753,9 +744,7 @@ code {
   overflow: hidden;
 }
 
-#buttonsInDevice .btn,
-#buttonsBadgesInDevice .btn,
-#buttonsWithIconsInDevice .btn {
+#buttonsInDevice .btn, #buttonsBadgesInDevice .btn, #buttonsWithIconsInDevice .btn {
   margin-top: 10px;
   margin-right: 100px;
   margin-left: 10px;
@@ -804,7 +793,7 @@ code {
   bottom: 0;
   left: 0;
   z-index: 11;
-  content: '';
+  content: ''; 
   background-color: rgba(0, 0, 0, .3);
 }
 
@@ -816,6 +805,7 @@ code {
     opacity: 1;
   }
 }
+
 #modalsInDevice #iwindow > .btn {
   margin: 10px;
 }
@@ -828,7 +818,7 @@ code {
   }
 
   .slider .slide img {
-    display: block;
+    display: block; 
     width: 100%;
     height: 570px;
   }
@@ -844,6 +834,7 @@ code {
     text-shadow: 0 0 10px rgba(0, 0, 0, .5);
   }
 }
+
 .device {
   display: none;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -885,28 +876,28 @@ code {
     background-color: #fff;
   }
 
-  .device .content,
-  .device .bar,
-  .device .modal {
+  .device .content, .device .bar, .device .modal {
     position: absolute;
   }
 
   .device .content {
     top: 44px;
     right: 0;
-    bottom: 0;
+    bottom: 0; 
     left: 0;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .device {
     margin-left: 39px;
   }
 }
+
 hr {
   height: 0;
   margin: 10px 0 30px;
-  clear: both;
+  clear: both; 
   border: solid #ddd;
   border-width: 1px 0 0;
 }
@@ -921,7 +912,7 @@ hr {
 
 .container {
   position: relative;
-  padding-right: 0;
+  padding-right: 0; 
   padding-left: 0;
   margin-right: auto;
   margin-left: auto;
@@ -933,7 +924,7 @@ hr {
 
 .column {
   float: left;
-  width: 100%;
+  width: 100%; 
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -942,13 +933,13 @@ hr {
 }
 
 .column .column-group {
-  margin-right: -15px;
+  margin-right: -15px; 
   margin-left: -15px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 940px;
+    max-width: 940px; 
     padding: 0;
   }
 
@@ -968,9 +959,26 @@ hr {
     width: 66.666%;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+}
+
+.platform-ios {
+  @at-root {
+    @-webkit-keyframes fadeOverlay {
+      from {
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0), -320px 0 0 rgba(0, 0, 0, 0);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0), -320px 0 0 rgba(0, 0, 0, 0);
+      }
+
+      to {
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .3), -320px 0 0 rgba(0, 0, 0, .1);
+                box-shadow: 0 0 10px rgba(0, 0, 0, .3), -320px 0 0 rgba(0, 0, 0, .1);
+      }
+    }
   }
 }
 .platform-ios a {
@@ -982,13 +990,10 @@ hr {
 .platform-ios .content {
   background-color: #efeff4;
 }
-.platform-ios .h5, .platform-ios h5,
-.platform-ios .h6, .platform-ios h6,
-.platform-ios p {
+.platform-ios .h5, .platform-ios h5, .platform-ios .h6, .platform-ios h6, .platform-ios p {
   color: #8f8f94;
 }
-.platform-ios .h5, .platform-ios h5,
-.platform-ios .h6, .platform-ios h6 {
+.platform-ios .h5, .platform-ios h5, .platform-ios .h6, .platform-ios h6 {
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1001,7 +1006,7 @@ hr {
           transition: all;
   -webkit-transition-timing-function: linear;
      -moz-transition-timing-function: linear;
-          transition-timing-function: linear;
+          transition-timing-function: linear; 
   -webkit-transition-duration: .2s;
      -moz-transition-duration: .2s;
           transition-duration: .2s;
@@ -1140,14 +1145,14 @@ hr {
 }
 .platform-ios .table-view {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: 0 100%, 0 0;
   border-top: 0;
   border-bottom: 0;
 }
 .platform-ios .table-view .table-view-cell {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: 15px 100%;
   border-bottom: 0;
 }
@@ -1159,28 +1164,12 @@ hr {
 }
 .platform-ios .table-view .table-view-divider {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: 0 100%, 0 0;
   border-top: 0;
   border-bottom: 0;
 }
-.platform-ios select,
-.platform-ios textarea,
-.platform-ios input[type="text"],
-.platform-ios input[type="search"],
-.platform-ios input[type="password"],
-.platform-ios input[type="datetime"],
-.platform-ios input[type="datetime-local"],
-.platform-ios input[type="date"],
-.platform-ios input[type="month"],
-.platform-ios input[type="time"],
-.platform-ios input[type="week"],
-.platform-ios input[type="number"],
-.platform-ios input[type="email"],
-.platform-ios input[type="url"],
-.platform-ios input[type="tel"],
-.platform-ios input[type="color"],
-.platform-ios .input-group {
+.platform-ios select, .platform-ios textarea, .platform-ios input[type="text"], .platform-ios input[type="search"], .platform-ios input[type="password"], .platform-ios input[type="datetime"], .platform-ios input[type="datetime-local"], .platform-ios input[type="date"], .platform-ios input[type="month"], .platform-ios input[type="time"], .platform-ios input[type="week"], .platform-ios input[type="number"], .platform-ios input[type="email"], .platform-ios input[type="url"], .platform-ios input[type="tel"], .platform-ios input[type="color"], .platform-ios .input-group {
   height: 40px;
   padding: 10px 15px;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -1195,21 +1184,19 @@ hr {
 .platform-ios input[type="search"]:focus {
   text-align: left;
 }
-.platform-ios select,
-.platform-ios textarea,
-.platform-ios .input-group {
+.platform-ios select, .platform-ios textarea, .platform-ios .input-group {
   height: auto;
 }
 .platform-ios .input-group {
   padding: 0;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: 0 100%, 0 0;
   border: 0;
 }
 .platform-ios .input-group input {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: 15px 100%;
   border: 0;
 }
@@ -1218,12 +1205,11 @@ hr {
 }
 .platform-ios .input-row {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#c8c7cc' x='0' y='0' width='100%' height='0.5'/></svg>");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: 15px 100%;
   border-bottom: 0;
 }
-.platform-ios .input-row:last-child,
-.platform-ios .input-row label + input {
+.platform-ios .input-row:last-child, .platform-ios .input-row label + input {
   background-image: none;
 }
 .platform-ios .segmented-control {
@@ -1323,7 +1309,7 @@ hr {
           box-shadow: inset 0 0 0 0 #e1e1e1;
   -webkit-transition-duration: .2s;
      -moz-transition-duration: .2s;
-          transition-duration: .2s;
+          transition-duration: .2s; 
   -webkit-transition-property: box-shadow, border;
      -moz-transition-property: box-shadow, border;
           transition-property: box-shadow, border;
@@ -1331,7 +1317,7 @@ hr {
 .platform-ios .toggle .toggle-handle {
   border: 1px solid rgba(0, 0, 0, .2);
   -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .08);
-          box-shadow: 0 3px 3px rgba(0, 0, 0, .08);
+          box-shadow: 0 3px 3px rgba(0, 0, 0, .08); 
   -webkit-transition-property: -webkit-transform, border, width;
      -moz-transition-property:    -moz-transform, border, width;
           transition-property:         transform, border, width;
@@ -1381,16 +1367,6 @@ hr {
       -ms-transform: translate3d(-20%, 0, 0);
           transform: translate3d(-20%, 0, 0);
 }
-@-webkit-keyframes fadeOverlay {
-  from {
-    -webkit-box-shadow: 0 0 10px transparent, -320px 0 0 transparent;
-            box-shadow: 0 0 10px transparent, -320px 0 0 transparent;
-  }
-  to {
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .3), -320px 0 0 rgba(0, 0, 0, .1);
-            box-shadow: 0 0 10px rgba(0, 0, 0, .3), -320px 0 0 rgba(0, 0, 0, .1);
-  }
-}
 .platform-ios .device {
   background-position: -395px 0;
 }
@@ -1399,7 +1375,7 @@ hr {
 }
 
 .platform-android body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 22px;
   color: #222;
@@ -1453,7 +1429,7 @@ hr {
 }
 .platform-android .btn-primary:active, .platform-android .btn-primary.active {
   color: #fff;
-  background-color: #1a9bcb;
+  background-color: #1a9bcb; 
   border: 0;
 }
 .platform-android .btn-positive {
@@ -1559,9 +1535,7 @@ hr {
 .platform-android .bar.bar-footer-secondary-tab {
   bottom: 50px;
 }
-.platform-android .bar .bar-footer,
-.platform-android .bar .bar-footer-secondary,
-.platform-android .bar .bar-footer-secondary-tab {
+.platform-android .bar .bar-footer, .platform-android .bar .bar-footer-secondary, .platform-android .bar .bar-footer-secondary-tab {
   border-top: 1px solid #b1b1b1;
   border-bottom: 0;
   -webkit-box-shadow: inset 0 -2px 0 #33b5e5;
@@ -1694,49 +1668,10 @@ hr {
   border-top: 0;
   border-bottom: 2px solid #a9a9a9;
 }
-.platform-android .table-view-cell .navigate-left > .btn,
-.platform-android .table-view-cell .navigate-left > .badge,
-.platform-android .table-view-cell .navigate-left > .toggle,
-.platform-android .table-view-cell .navigate-right > .btn,
-.platform-android .table-view-cell .navigate-right > .badge,
-.platform-android .table-view-cell .navigate-right > .toggle,
-.platform-android .table-view-cell .push-left > .btn,
-.platform-android .table-view-cell .push-left > .badge,
-.platform-android .table-view-cell .push-left > .toggle,
-.platform-android .table-view-cell .push-right > .btn,
-.platform-android .table-view-cell .push-right > .badge,
-.platform-android .table-view-cell .push-right > .toggle,
-.platform-android .table-view-cell > a .navigate-left > .btn,
-.platform-android .table-view-cell > a .navigate-left > .badge,
-.platform-android .table-view-cell > a .navigate-left > .toggle,
-.platform-android .table-view-cell > a .navigate-right > .btn,
-.platform-android .table-view-cell > a .navigate-right > .badge,
-.platform-android .table-view-cell > a .navigate-right > .toggle,
-.platform-android .table-view-cell > a .push-left > .btn,
-.platform-android .table-view-cell > a .push-left > .badge,
-.platform-android .table-view-cell > a .push-left > .toggle,
-.platform-android .table-view-cell > a .push-right > .btn,
-.platform-android .table-view-cell > a .push-right > .badge,
-.platform-android .table-view-cell > a .push-right > .toggle {
+.platform-android .table-view-cell .navigate-left > .btn, .platform-android .table-view-cell .navigate-left > .badge, .platform-android .table-view-cell .navigate-left > .toggle, .platform-android .table-view-cell .navigate-right > .btn, .platform-android .table-view-cell .navigate-right > .badge, .platform-android .table-view-cell .navigate-right > .toggle, .platform-android .table-view-cell .push-left > .btn, .platform-android .table-view-cell .push-left > .badge, .platform-android .table-view-cell .push-left > .toggle, .platform-android .table-view-cell .push-right > .btn, .platform-android .table-view-cell .push-right > .badge, .platform-android .table-view-cell .push-right > .toggle, .platform-android .table-view-cell > a .navigate-left > .btn, .platform-android .table-view-cell > a .navigate-left > .badge, .platform-android .table-view-cell > a .navigate-left > .toggle, .platform-android .table-view-cell > a .navigate-right > .btn, .platform-android .table-view-cell > a .navigate-right > .badge, .platform-android .table-view-cell > a .navigate-right > .toggle, .platform-android .table-view-cell > a .push-left > .btn, .platform-android .table-view-cell > a .push-left > .badge, .platform-android .table-view-cell > a .push-left > .toggle, .platform-android .table-view-cell > a .push-right > .btn, .platform-android .table-view-cell > a .push-right > .badge, .platform-android .table-view-cell > a .push-right > .toggle {
   right: 15px;
 }
-.platform-android select,
-.platform-android textarea,
-.platform-android input[type="text"],
-.platform-android input[type="search"],
-.platform-android input[type="password"],
-.platform-android input[type="datetime"],
-.platform-android input[type="datetime-local"],
-.platform-android input[type="date"],
-.platform-android input[type="month"],
-.platform-android input[type="time"],
-.platform-android input[type="week"],
-.platform-android input[type="number"],
-.platform-android input[type="email"],
-.platform-android input[type="url"],
-.platform-android input[type="tel"],
-.platform-android input[type="color"],
-.platform-android .input-group {
+.platform-android select, .platform-android textarea, .platform-android input[type="text"], .platform-android input[type="search"], .platform-android input[type="password"], .platform-android input[type="datetime"], .platform-android input[type="datetime-local"], .platform-android input[type="date"], .platform-android input[type="month"], .platform-android input[type="time"], .platform-android input[type="week"], .platform-android input[type="number"], .platform-android input[type="email"], .platform-android input[type="url"], .platform-android input[type="tel"], .platform-android input[type="color"], .platform-android .input-group {
   height: 40px;
   padding: 10px 15px;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -1746,9 +1681,7 @@ hr {
 .platform-android input[type="search"] {
   border-radius: 2px;
 }
-.platform-android select,
-.platform-android textarea,
-.platform-android .input-group {
+.platform-android select, .platform-android textarea, .platform-android .input-group {
   height: auto;
 }
 .platform-android .input-group {
@@ -1909,26 +1842,22 @@ hr {
   left: auto;
   color: #fff;
 }
-.platform-android .navigate-left:after,
-.platform-android .push-left:after {
+.platform-android .navigate-left:after, .platform-android .push-left:after {
   content: '';
 }
-.platform-android .navigate-right:after,
-.platform-android .push-right:after {
+.platform-android .navigate-right:after, .platform-android .push-right:after {
   content: '';
 }
 .platform-android .icon-caret:before {
   content: '\e800';
 }
-.platform-android .icon-down:before,
-.platform-android .icon-down-nav:before {
+.platform-android .icon-down:before, .platform-android .icon-down-nav:before {
   content: '\e801';
 }
 .platform-android .icon-download:before {
   content: '\e802';
 }
-.platform-android .icon-left:before,
-.platform-android .icon-left-nav:before {
+.platform-android .icon-left:before, .platform-android .icon-left-nav:before {
   content: '\e803';
 }
 .platform-android .icon-more-vertical:before {
@@ -1937,8 +1866,7 @@ hr {
 .platform-android .icon-more:before {
   content: '\e805';
 }
-.platform-android .icon-right:before,
-.platform-android .icon-right-nav:before {
+.platform-android .icon-right:before, .platform-android .icon-right-nav:before {
   content: '\e806';
 }
 .platform-android .icon-search:before {
@@ -1947,8 +1875,7 @@ hr {
 .platform-android .icon-share:before {
   content: '\e808';
 }
-.platform-android .icon-up:before,
-.platform-android .icon-up-nav:before {
+.platform-android .icon-up:before, .platform-android .icon-up-nav:before {
   content: '\e809';
 }
 .platform-android .device {
@@ -1976,10 +1903,12 @@ hr {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .bs-callout {
   padding: 20px;
   margin: 20px 0;
@@ -2028,12 +1957,12 @@ hr {
 }
 
 .list-group {
-  padding-left: 0;
+  padding-left: 0; 
   margin-bottom: 20px;
 }
 
 .list-group-item:first-child {
-  border-top-left-radius: 4px;
+  border-top-left-radius: 4px; 
   border-top-right-radius: 4px;
 }
 
@@ -2048,7 +1977,7 @@ hr {
 
 .list-group .team-member {
   font-size: 14px;
-  line-height: 32px;
+  line-height: 32px; 
   color: #555;
 }
 
@@ -2066,13 +1995,12 @@ hr {
 .list-group .github-btn {
   float: right;
   width: 121px;
-  height: 20px;
+  height: 20px; 
   margin-top: 6px;
 }
 
-.browser-support-table td,
-.browser-support-table th {
-  padding: 5px;
+.browser-support-table td, .browser-support-table th {
+  padding: 5px; 
   border: 1px solid #ddd;
 }
 
